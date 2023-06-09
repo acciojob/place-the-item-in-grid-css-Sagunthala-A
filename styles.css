@@ -1,14 +1,12 @@
 
 /* Your CSS Code here. */
 .item{
-	height:200px;
-	width:200px;
 	background-color:blue;
 }
 
 .holder{
 	display:grid;
-	grid-template-columns: repeat(2,auto);
+	grid-template-columns: repeat(2,100px);
 	gap: 2em 0;
 }
 
